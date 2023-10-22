@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+a{
+    text-decoration: none;
+    
+    
+    
+}
+nav{
+ text-align: center;
+ border: 3px solid #ccc;
+
+}
+
+nav ul li{
+    display: inline-block;
+    
+    position: relative;
+}
+
+nav ul li a{
+    color: black;
+    display: block;
+    padding: 15px 30px;
+
+}
+nav ul li:hover >a{
+    color: orangered;
+
+}
+
+nav ul li .submenu{
+    position: absolute;
+    border: 1px solid #ccc;
+    
+    text-align: left;
+    border-top: 3px solid orangered ;
+   width: 160px;
+   background-color: white;
+   margin-top: 80px;
+   opacity: 0;
+   visibility: hidden;
+   transform: 0.5s;
+
+
+}
+ 
+nav ul li:hover > .submenu{
+
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+}
+
+.submenu li{
+    display: block;
+}
+
+.submenu li a{
+border-bottom: 0px solid #ccc ;
+padding: 8px 15px;
+line-height: 20px;
+
+}
+.submenu li:hover >a{
+    color: white;
+    background-color: orangered;
+}
+
+.submenu .submenu {
+    top: 0;
+    left: 100%;
+}
+               /* Main */
+.new{
+   width: 100%;
+    background-color: #f2f4f8c8;
+    display: flex;
+}
+.new1{
+    align-items: center;
+   width: 70%;
+  
+}
+.new1 img{
+width: 90%;
+margin: 35px 0 0 100px;
+}
+.new2{
+    width: 30%;
+   margin: 35px 0 0 20px;
+   
+}
+.new2 img{
+    width: 70% ;
+}
+
+
+
+.move{
+    width: 100%;
+    background-color: #f2f4f8c8 ;
+    padding: 20px;
+}
+
+marquee{
+    width: 82%;
+    margin-left: 80px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+/* 2nd */
+
+.icon{
+
+    background-color: #f2f4f8;
+    
+   
+}
+
+
+.heading h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+.heading p{
+    text-align: center;
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.drone {
+    background-color: white;
+    
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 30px;
+  
+    
+}
+
+.drone> img{
+    width: 50%;
+    border-radius: 10px;
+    padding-bottom: 0;
+}
+
+
+.drone a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.drone a:hover {
+    color: orangered;
+}
+
+.part2 h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.pc{
+    display: flex;
+    justify-content: center;
+}
+
+.part2 p{
+    text-align: center;
+}
+
+
+
+
+.price {
+    background-color: white;
+    
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 30px;
+    
+}
+.price a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.price h3{
+
+    text-align: left;
+    font-family:  sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #e5330b;
+}
