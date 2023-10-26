@@ -44,7 +44,7 @@ nav ul li .submenu{
    margin-top: 80px;
    opacity: 0;
    visibility: hidden;
-   transform: 0.5s;
+   transition: 0.5s;
 
 
 }
